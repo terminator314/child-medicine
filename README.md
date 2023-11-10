@@ -14,6 +14,13 @@
 
 ## 算法
 
+代码实现
+python tools/train.py -c configs/yolov3/yolov3_mobilenet_v1_roadsign.yml
+
+python tools/eval.py -c configs/yolov3/yolov3_mobilenet_v1_roadsign.yml -o weights=output/yolov3_mobilenet_v1_roadsign/model_final use_gpu=False
+
+python tools/infer.py -c configs/yolov3/yolov3_mobilenet_v1_roadsign.yml -o weights=output/yolov3_mobilenet_v1_roadsign/model_final use_gpu=False
+
 
 ## 实现
 
