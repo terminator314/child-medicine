@@ -2,7 +2,7 @@
 基于儿童医学影像做图像识别、目标检测为医生提供诊断依据
 
 ---------------------------------------------------------------------------
-## 基于PaddleDetection的医疗显微图像-结核杆菌识别
+## 基于PaddleDetection的医疗图像-病灶位置识别
 
  20231106 、尝试使用PP-yolov2检测痰液中的结合杆菌，从而实现异常检测。
 ## 一、项目背景
@@ -25,7 +25,23 @@ python tools/infer.py -c configs/yolov3/yolov3_mobilenet_v1_roadsign.yml -o weig
 ## 实现
 
 
+
 ## 结果
 
 
+
 ## 对比
+
+
+
+
+## 【参考资料】
+
+
+
+[Fracture Detection in Wrist X-ray Images Using Deep.pdf](https://github.com/terminator314/child-medicine/files/13454460/Fracture.Detection.in.Wrist.X-ray.Images.Using.Deep.pdf)
+
+[Convolutional Neural Networks for Automated .pdf](https://github.com/terminator314/child-medicine/files/13454465/Convolutional.Neural.Networks.for.Automated.pdf)
+[Deep learning assisted diagnosis system.pdf](https://github.com/terminator314/child-medicine/files/13454478/Deep.learning.assisted.diagnosis.system.pdf)
+
+
